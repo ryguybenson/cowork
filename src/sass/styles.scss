@@ -104,6 +104,12 @@
   .price {
     width: 20%;
   }
+  .header>h2 {
+    display: none
+  }
+  #logo {
+    display: block;
+  }
 }
 @media screen and (max-width: 680px) {
   .price {
