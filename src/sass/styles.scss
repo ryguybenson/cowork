@@ -5,14 +5,19 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-content: center;
+  align-items: center;
   background-color: purple;
   color: white;
+  height: 7vw;
+}
+.header>h2 {
+  width: 18%;
+  margin-left: 7%;
 }
 .top-body {
   display: grid;
   grid-template-rows: 100px 200px 100px;
-  grid-template-columns: 30% 40% 30%;
+  grid-template-columns: 1fr 300px 1fr;
   justify-content: center;
   align-items: center;
   border: 1px solid red;
@@ -26,8 +31,11 @@
 }
 
 .overlap-text {
+  width: 300px;
   grid-area: 2 / 2 / 3 / 3;
   text-align: center;
+  align-items: center;
+  justify-content: center;
   z-index: 1;
   background-color: lightgray;
   border-radius: 2em;
@@ -35,12 +43,19 @@
 .message {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   text-align: center;
-  background-color: lightgray
+  background-color: lightgray;
+  margin-bottom: 4%;
+  height: 5%;
+}
+.message>h3 {
+  padding-left: 15%;
+  padding-right: 15%;
 }
 .member-header {
   text-align: center;
+  margin-bottom: 3%;
 }
 .memberships {
   width: 90%;
@@ -48,7 +63,9 @@
   margin-right: auto;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
+  margin-bottom: 6%;
 }
 .price {
   width: 15%;
@@ -59,15 +76,18 @@
 }
 .includesheader {
   text-align: center;
+  margin-bottom: 4%;
 }
 .includes {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-around;
   margin-bottom: 2%;
 }
 .icon {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   width: 10%;
   border: 1px solid black;
@@ -79,4 +99,21 @@
   justify-content: space-around;
   align-items: center;
   background-color: lightgray
+}
+@media screen and (max-width: 960px) {
+  .price {
+    width: 20%;
+  }
+}
+@media screen and (max-width: 680px) {
+  .price {
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+  }
+  .icon {
+    width: 20%;
+    margin-bottom: 3%;
+  }
 }
