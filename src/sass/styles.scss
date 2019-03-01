@@ -1,0 +1,82 @@
+// *{
+//   border: 1px solid black;
+// }
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  background-color: purple;
+  color: white;
+}
+.top-body {
+  display: grid;
+  grid-template-rows: 100px 200px 100px;
+  grid-template-columns: 30% 40% 30%;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  overflow: hidden;
+}
+.top-body>img {
+  position: relative;
+  right: 600px;
+  bottom: 80px;
+  grid-area: 1 / 1 / 4 / 4;
+}
+
+.overlap-text {
+  grid-area: 2 / 2 / 3 / 3;
+  text-align: center;
+  z-index: 1;
+  background-color: lightgray;
+  border-radius: 2em;
+}
+.message {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  background-color: lightgray
+}
+.member-header {
+  text-align: center;
+}
+.memberships {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.price {
+  width: 15%;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: .5em;
+  background-color: lightgray;
+}
+.includesheader {
+  text-align: center;
+}
+.includes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 2%;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  width: 10%;
+  border: 1px solid black;
+  border-radius: 1rem;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: lightgray
+}
