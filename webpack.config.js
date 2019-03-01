@@ -58,7 +58,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       inject: 'body',
       template: './src/contact.html',
-      filename: 'index.html',
+      filename: 'contact.html',
     }),
 
   ]
