@@ -123,3 +123,31 @@
     margin-bottom: 3%;
   }
 }
+/////////// Contact Page
+.contact-top {
+  text-align: center;
+}
+.contact-box {
+  margin-bottom: 5%;
+  display: grid;
+  grid-template-columns: 400px 1fr;
+}
+.company-info {
+  width: 300px;
+  margin-left: 50px;
+}
+.guest-info {
+  display: flex;
+  flex-direction: column;
+}
+.guest-info>input {
+  width: 50%;
+  height: 40px;
+}
+#additional {
+  height: 150px;
+}
+button {
+  margin-top: 3%;
+  width: 100px;
+}
