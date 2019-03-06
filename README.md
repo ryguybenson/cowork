@@ -29,6 +29,9 @@ _This project is a website for a new co-working company that has come to town. T
 
 ## Sketches
   ![](src/assets/images/sketch1.jpeg)  ![](src/assets/images/sketch2.jpeg) ![](src/assets/images/sketch3.jpeg) ![](src/assets/images/sketch4.jpeg) ![](src/assets/images/sketch5.jpeg) ![](src/assets/images/sketch6.jpeg)
+  
+## Wireframes
+ ![](src/assets/images/desktop-main.png)  ![](src/assets/images/tablet-main.png) ![](src/assets/images/mobile-main.png) ![](src/assets/images/mobile-main2.png) ![](src/assets/images/mobile-contact.png) ![](src/assets/images/mobile-pricing.png)
 
 ## Setup/Installation Requirements
 
