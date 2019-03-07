@@ -9,6 +9,8 @@
   background-color: purple;
   color: white;
   height: 7vw;
+  max-height: 150px;
+  min-height: 50px;
 }
 .header>h2 {
   width: 18%;
@@ -20,15 +22,12 @@
   grid-template-columns: 1fr 300px 1fr;
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
   overflow: hidden;
+  background-image: url("../assets/images/entry.png");
+  background-position: center;
+  // background-attachment: fixed;
 }
-.top-body>img {
-  position: relative;
-  right: 600px;
-  bottom: 80px;
-  grid-area: 1 / 1 / 4 / 4;
-}
+
 
 .overlap-text {
   width: 300px;
@@ -36,7 +35,7 @@
   text-align: center;
   align-items: center;
   justify-content: center;
-  z-index: 1;
+  // z-index: 1;
   background-color: lightgray;
   border-radius: 2em;
 }
