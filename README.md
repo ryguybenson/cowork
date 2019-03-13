@@ -10,7 +10,7 @@ _This project is a website for a new co-working company that has come to town. T
 
 ## User Personas
 
-##_Dan_
+## _Dan_
 *_"I need a new workspace for my new start up company"_
 * _Needs:_
   * _A space other than their home to avoid distractions, focus, and be productive while working_
@@ -25,7 +25,7 @@ _This project is a website for a new co-working company that has come to town. T
   * _Provide private rooms he can reserve for privacy or meetings_
   * _Fast wi-fi and other office amenities_
 
-  ##_Linda_
+  ## _Linda_
   *_"I'm a college student in need of a workspace to code in my free time"_
   * _Needs:_
     * _A space other than their home to avoid distractions, focus, and be productive while working_
@@ -39,7 +39,7 @@ _This project is a website for a new co-working company that has come to town. T
     * _Provide competitive cost_
     * _Fast wi-fi and other office amenities_
 
-    ##_Steve_
+    ## _Steve_
     *_"I need a workspace that I can consistently come to"_
     * _Needs:_
       * _A space other than their home to avoid distractions, focus, and be productive while working_
@@ -53,6 +53,13 @@ _This project is a website for a new co-working company that has come to town. T
       * _Provide competitive cost_
       * _Provide an option to have his own desk and office_
       * _Fast wi-fi and other office amenities_
+      
+ ## _User Stories_
+  
+   * _As a travelling businessman, I need a cheap office space I can use whenever I am back in town._
+   * _As an owner of a start-up company, I need a cheap office space with no long term commitment and amenities such as wi-fi and printers._
+   * _As a freelance programmer, I need my own private office where I can store anything I need and consistantly go to get work done,_
+   * _As a college student, I want a cheap office space where I can go to get work done and be surrounded by other enthusiastic programmers and business professionals._
 
 ## Sketches
   ![](src/assets/images/sketch1.jpeg)  ![](src/assets/images/sketch2.jpeg) ![](src/assets/images/sketch3.jpeg) ![](src/assets/images/sketch4.jpeg) ![](src/assets/images/sketch5.jpeg) ![](src/assets/images/sketch6.jpeg)
